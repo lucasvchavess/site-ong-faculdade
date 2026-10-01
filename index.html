@@ -1,126 +1,303 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Instituto Novo Elo — conectando pessoas, recursos e iniciativas para transformar realidades."
+    >
+
     <title>Instituto Novo Elo</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
 </head>
 
+
 <body>
+
+
+    <a
+        class="skip-link"
+        href="#app"
+    >
+        Pular para o conteúdo principal
+    </a>
+
+
     <header class="menu">
+
+
         <div class="logo">
-            <a href="/">
-                <img src="assets/images/logo_Novo_Elo.svg" alt="Logotipo Instituto Novo Elo">
+
+            <a
+                href="#home"
+                data-route="home"
+            >
+
+                <img
+                    src="assets/images/logo_Novo_Elo.svg"
+                    alt="Instituto Novo Elo"
+                >
+
             </a>
+
         </div>
 
-        <nav class="main-navigation" aria-label="Navegação Principal"> 
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="menu-principal"
+        >
+
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+
+        </button>
+
+
+        <nav
+            class="main-navigation"
+            id="menu-principal"
+            aria-label="Navegação principal"
+        >
+
             <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="cadastro.html">Seja um Voluntário</a></li>
-            </ul>
-        </nav>
-    </header>
-        <main>
-            <div class="hero-area">
-                <section class="hero">
-                    <div class="wrapper-hero">
-                        <div class="conteudo">
-                            <h1>Juntos podemos transformar realidades</h1>
-                            <p>O Instituto Novo Elo conecta pessoas, recursos e iniciativas para apoiar comunidades e criar novas oportunidades.</p>
-                            <a class="btn-principal" href="projetos.html">Conheça os nossos projetos<img src="assets/images/arrow-btn.svg"></a>
-                            <a class="btn-secundario" href="cadastro.html">Seja um voluntário<img src="assets/images/arrow-btn.svg"></a>
-                        </div>
-                    </div>
 
-                </section>
 
-                <section class="quem-somos">
-                    <div class="wrapper-quem-somos">
-                        <div class="conteudo-quem-somos">
-                            <p class="tag">Quem somos?</p>
-                            <h2>Conexões que geram transformação</h2>
-                            <p>O Instituto Novo Elo é uma organização sem fins lucrativos criada para apoiar pessoas e comunidades por meio de iniciativas sociais.
-    Acreditamos que pequenas ações, quando realizadas em conjunto, podem gerar grandes mudanças.</p>
-                        </div>
-                        <div class="image-quem-somos">
-                            <img src="assets/images/quem-somos.webp" alt="Equipe de voluntários do Instituto Novo Elo">
-                        </div>
-                    </div>
-                </section>
-            </div>
+                <li>
 
-            <section class="nossos-projetos">
-                <div class="conteudo-projetos">
-                    <div class="textos-projetos">
-                        <p class="tag-projetos"> Nossos projetos</p>
-                        <h2>Conheça nossas iniciativas</h2>
-                        <p class="descricao-p">Atuamos em diferentes frentes para contribuir com comunidades e famílias que precisam de apoio.</p>
-                    </div>
-                    <div class="cards-projetos">
-                        <article class="card"> 
-                            <img src="assets/images/alimentacao.webp" alt="Uma mulher entregando alimento para uma mãe com dois filhos">
-                            <div class="conteudo-card">
-                                <h3>Alimentação para Todos</h3>
-                                <p>Arrecadação e distribuição de alimentos para famílias em situação de vulnerabilidade.</p>
-                                <a class="btn-projeto" href="projetos.html">Conhecer o projeto <img src="assets/images/arrow-btn.svg"></a>
-                            </div>
-                        </article>
-                        <article class="card"> 
-                            <img src="assets/images/educacao.webp" alt="Dois voluntários auxiliando as crianças em uma sala de aula">
-                            <div class="conteudo-card">
-                                <h3>Caminhos da Educação</h3>
-                                <p>Apoio educacional e distribuição de materiais escolares para crianças e adolescentes.</p>
-                                <a class="btn-projeto" href="projetos.html">Conhecer o projeto <img src="assets/images/arrow-btn.svg"></a>
-                            </div>
-                        </article>
-                        <article class="card"> 
-                            <img src="assets/images/comunidade.webp" alt="Pessoas pintando a parede de uma comunidade e fazendo plantações">
-                            <div class="conteudo-card">
-                                <h3>Comunidade em Ação</h3>
-                                <p>Atividades e ações sociais voltadas ao desenvolvimento e fortalecimento das comunidades.</p>
-                                <a class="btn-projeto" href="projetos.html">Conhecer o projeto <img src="assets/images/arrow-btn.svg"></a>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </section>
+                    <a
+                        href="#home"
+                        data-route="home"
+                    >
+                        Início
+                    </a>
 
-            <section class="cta-cadastro">
-                <h2>Seu tempo pode transformar vidas</h2>
-                <p>Faça parte das nossas ações e ajude a construir novas oportunidades.</p>
-                <a class="btn-cta" href="cadastro.html">Quero ser um voluntário <img src="assets/images/btn-cta.svg"></a>
-            </section>
+                </li>
 
-        </main>
-    <footer class="footer">
-        <div class="conteudo-footer">
-            <div class="parte-superior">
-                <div class="footer-identidade">
-                    <h2>Instituto <span>Novo Elo</span></h2>
-                    <p>Conectando pessoas. Transformando realidades.</p>
-                </div>
 
-                <nav class="footer-navegacao" aria-label="Navegação do rodapé">
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="projetos.html">Projetos</a></li>
-                        <li><a href="cadastro.html">Seja um Voluntário</a></li>
+                <li class="item-submenu">
+
+                    <a
+                        href="#projetos"
+                        data-route="projetos"
+                        class="link-submenu"
+                    >
+
+                        Projetos
+
+                        <span
+                            class="seta-submenu"
+                            aria-hidden="true"
+                        >
+                            ▾
+                        </span>
+
+                    </a>
+
+
+                    <ul class="submenu">
+
+                        <li>
+
+                            <a
+                                href="#projetos"
+                                data-route="projetos"
+                            >
+                                Alimentação para Todos
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                href="#projetos"
+                                data-route="projetos"
+                            >
+                                Caminhos da Educação
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                href="#projetos"
+                                data-route="projetos"
+                            >
+                                Comunidade em Ação
+                            </a>
+
+                        </li>
+
                     </ul>
+
+                </li>
+
+
+                <li>
+
+                    <a
+                        href="#cadastro"
+                        data-route="cadastro"
+                    >
+                        Seja um Voluntário
+                    </a>
+
+                </li>
+
+
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+
+    <main
+        id="app"
+        tabindex="-1"
+    ></main>
+
+
+    <footer class="footer">
+
+        <div class="conteudo-footer">
+
+
+            <div class="parte-superior">
+
+
+                <div class="footer-identidade">
+
+                    <h2>
+                        Instituto
+                        <span>Novo Elo</span>
+                    </h2>
+
+                    <p>
+                        Conectando pessoas.
+                        Transformando realidades.
+                    </p>
+
+                </div>
+
+
+                <nav
+                    class="footer-navegacao"
+                    aria-label="Navegação do rodapé"
+                >
+
+                    <ul>
+
+
+                        <li>
+
+                            <a
+                                href="#home"
+                                data-route="home"
+                            >
+                                Início
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                href="#projetos"
+                                data-route="projetos"
+                            >
+                                Projetos
+                            </a>
+
+                        </li>
+
+
+                        <li>
+
+                            <a
+                                href="#cadastro"
+                                data-route="cadastro"
+                            >
+                                Seja um Voluntário
+                            </a>
+
+                        </li>
+
+
+                    </ul>
+
                 </nav>
+
+
             </div>
 
-            <p class="copyright">&copy; 2026 Instituto Novo Elo. Todos os direitos reservados.</p>
+
+            <p class="copyright">
+
+                &copy; 2026 Instituto Novo Elo.
+                Todos os direitos reservados.
+
+            </p>
+
+
         </div>
-</footer>
+
+    </footer>
+
+
+    <script
+        type="module"
+        src="js/app.js"
+    ></script>
+
+
 </body>
+
 </html>
